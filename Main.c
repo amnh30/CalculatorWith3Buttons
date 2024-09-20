@@ -63,7 +63,7 @@ void NumberCounter(u8 Copy_u8Num)
         else if (0 == Local_u8PressedDown)
         {
             Local_u8Counter--;
-            if (-1 == Local_u8Counter)
+            if (255 == Local_u8Counter)
             {
                 Local_u8Counter = 9;
             }
